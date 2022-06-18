@@ -6,7 +6,7 @@ class Video{
         $category_id=$data['category_id'];
         
         $DB=new Database();
-        $query="select * from videos where category_id=$category_id";
+        $query="select * from videos where category_id=$category_id order by id desc";
         $result=$DB->read($query);
 
         return $result;

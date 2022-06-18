@@ -1,12 +1,128 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Payment</title>
+    <style>
+        h2 {
+            font-size: 1.3em;
+            margin-top: 10px;
+            font-weight: bold;
+        }
+
+        p {
+            font-size: 1em;
+        }
+
+        .payment {
+            font-size: 1em;
+            padding: 5px;
+        }
+
+        .card {
+            margin-bottom: 5px !important;
+        }
+    </style>
 </head>
+
 <body>
-    How to register as a vip user
+    <div class="container">
+        <h2>Vip အဖြစ် မှတ်ပုံတင်ခြင်း &#128081;</h2>
+        <p>
+            လူကြီးမင်းအနေဖြင့် lock (သော့) ခတ်ထားသော video များကိုကြည့်ရှုရန် လူကြီးမင်း၏ ဖုန်းအား VIP မှတ်ပုံတင်ထားရန် လိုအပ်ပါသည်။
+        
+        </p>
+
+        <div class="card text-left">
+            <div class="card-header bg-warning text-white">ကျသင့်ငွေ</div>
+            <div class="card-body">
+                <div>
+ 
+                    <table style="width: 100%">
+                        <tr>
+                            <td style="width: 50%"><b>သက်တမ်းကာလ</b></td>
+                            <td style="width: 50%"><b>ကျသင့်ငွေ</b></td>
+                        </tr>
+
+                        <tr>
+                            <td>1 Year </td>
+                            <td> 20,000 kyats </td>
+                        </tr>
+                        <tr>
+                            <td>6 months </td>
+                            <td>15,000 kyats </td>
+                        </tr>
+
+                        <tr>
+                            <td>1 month </td>
+                            <td>5,000 kyats </td>
+                        </tr>
+
+                    </table>
+
+
+                </div>
+            </div>
+        </div>
+        <div class="card text-left">
+            <div class="card-header bg-primary text-white">ငွေပေးချေနိုင်သည့်နည်းလမ်းများ </div>
+            <div class="card-body">
+                <div>
+
+                    <div class="payment">&#128179; Wavepay<br> <b>09454024811</b> </div>
+                </div>
+                <div class="payment">&#128179; KBZpay <br> <b>09454024811</b> </div>
+
+                <div class="payment">&#128179; Phone Bill <br> <b>09454024811</b> </div>
+            </div>
+
+
+
+        </div>
+        <div class="card" style="width: 18rem;">
+            <div class="card-body">
+                <h5 class="card-title">ကျသင့်ငွေပေးချေပြီးပါက </h5>
+                <p class="card-text">
+                ကျသင့်ငွေပေးချေပြီးပါက ငွေပေးခြေထားသည့်  ဖြတ်ပိုင်း Screen-shot နှင့် မိမိ၏ app ID Screen-shot တို့ကို 
+                ProTV ၏ Facebook page messeenger သို့လည်းကောင်း Telegram Group Channel သို့လည်းကောင်း ပေးပို့ရမည် ဖြစ်ပါသည်။    
+                </p>
+
+
+
+                <span onclick="showAndroidToast('https://m.me/109662734750401')"
+                    style="color:blue; border:1px solid blue ; padding:8px ; ">
+                    <i class="fa fa-facebook-square"></i>
+                    Page' Messenger
+                </span>
+                <br><br>
+                <span onclick="showAndroidToast('https://t.me/AllPro33')" style="color:rgb(7, 150, 166); border:1px solid rgb(7, 150, 166) ; padding:8px ; ">
+                    Telegram
+                </span>
+
+                <script type="text/javascript">
+                    function showAndroidToast(toast) {
+                         
+                         Android.showToast(toast);
+
+                    }
+                </script>
+
+
+                <br><br>
+            <h5>ID Screen-shot နမူနာပုံစံ</h5>
+            <img src="id-screenshot.jpg" style="width: 150px;"/>
+            </div>
+        </div>
+
+      
+
+    </div>
 </body>
+
 </html>
+
